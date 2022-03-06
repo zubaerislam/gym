@@ -1,0 +1,202 @@
+@media (max-width: 767px) {
+
+    /* ====================
+        menu part start
+    =======================*/
+
+    .main_menu {
+        margin-top: 5px;
+    }
+
+    .main_menu .navbar-brand {
+        width: 164px;
+        height: 52px;
+        line-height: 0;
+    }
+
+
+    .main_menu #navbarSupportedContent {
+        background: #e23e38;
+        text-align: center;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .main_menu .nav-item {
+        border-bottom: 1px solid rgba(197, 185, 185, 0.664);
+    }
+
+    .main_menu ul li a {
+        line-height: 25px;
+        font-size: 12px;
+    }
+
+    /* ====================
+        menu part end
+    =======================*/
+    /* ====================
+        banner part start
+    =======================*/
+    #banner .banner_pic {
+        padding: 130px 0 50px;
+    }
+
+    #banner .banner_pic .banner_text h2::after,
+    #banner .banner_pic .banner_text h2::before,
+    #banner .banner_pic .banner_text h1::after,
+    #banner .banner_pic .banner_text h1::before,
+    #banner .banner_pic .banner_text p::after,
+    #banner .banner_pic .banner_text p::before {
+        display: none;
+    }
+
+    #banner .banner_pic .banner_text h2 {
+        font-size: 20px;
+    }
+
+    #banner .banner_pic .banner_text h1 {
+        font-size: 40px;
+        margin-top: 0px;
+    }
+
+    #banner .banner_pic .banner_text p {
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 13px;
+        margin-top: 0px;
+    }
+
+    #banner .banner_pic .banner_text a {
+        font-size: 11px;
+        padding: 5px 12px;
+        margin: 9px 6px;
+    }
+
+    #banner .slick-dots li button {
+        width: 12px;
+        height: 12px;
+        margin: 0 3px;
+    }
+
+    #banner .slick-dots li.slick-active button {
+        width: 15px;
+        height: 15px;
+    }
+
+    /* ====================
+        banner part end
+    =======================*/
+    /* ====================
+        about part start
+    =======================*/
+    #about {
+        padding: 30px 0;
+    }
+
+    #about .about_head h2 {
+        font-size: 20px;
+    }
+
+    #about .about_text p {
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    #about .about_text p:last-child {
+        margin-bottom: 15px;
+    }
+
+    #about .about_text p span {
+        margin-top: 12px;
+    }
+
+    /* ====================
+        about part end
+    =======================*/
+    /* ====================
+        gallery part start
+    =======================*/
+    #gallery .gall_bg .gall_img:last-child {
+        margin-bottom: 25px;
+    }
+
+    #gallery .gall_bg {
+        padding-bottom: 0px;
+        margin-top: 20px;
+    }
+
+    #gallery .common_head h2 {
+        font-size: 20px;
+    }
+
+    /* ====================
+        gallery part end
+    =======================*/
+    /* ====================
+        team part start
+    =======================*/
+
+    #team {
+        padding: 40px 0 40px;
+    }
+
+    #team .team_head .team_img .overlay{
+        transform: scale(1);
+    }
+
+    #team .team_head .team_text{
+        transform: translateY(0);
+    }
+
+    #team .team_head .team_text p{
+        transform: scale(1);
+        font-size: 12px;
+    }
+    
+    #team .team_head{
+        border: 1px solid #ddd;
+        margin-top: 30px;
+    }
+    /* ====================
+        team part end
+    =======================*/
+    /* ====================
+        menu part start
+    =======================*/
+    /* ====================
+        menu part end
+    =======================*/
+    /* ====================
+        menu part start
+    =======================*/
+    /* ====================
+        menu part end
+    =======================*/
+    /* ====================
+        top but part start
+    =======================*/
+    .top {
+        font-size: 20px;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        right: 3px;
+        bottom: 20px;
+    }
+    /* ====================
+        top but part end
+    =======================*/
+
+}
+
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 1200px) and (max-width: 1399px) {}
+
+@media (min-width: 1400px) {}

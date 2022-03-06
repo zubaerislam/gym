@@ -1,0 +1,80 @@
+@import '../variables/variables';
+@import '../mixins/mixin';
+
+/*======================================
+            classes start
+========================================*/
+#class {
+    padding-bottom: 80px;
+
+    .class_menu{
+        height: 60px;
+        background: #dddddd;
+        margin: 30px 0 30px;
+        button {
+            width: 14.286615%;
+            color: #444444;
+            border-radius: 0;
+            transition: all linear .3s;
+            text-transform: uppercase;
+    
+            &:hover {
+                background: $main_col;
+                color: $w;
+            }
+            &.active, .show > .nav-link {
+                background: $main_col;
+                color: $w;
+                border-radius: 0;
+            }
+        }
+    }
+
+    ul {
+        li {
+            width: 19.698%;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            &:nth-child(5),
+            &:nth-child(10){
+                margin-right: 0;
+            }
+            &:nth-child(6),
+            &:nth-child(7),
+            &:nth-child(8),
+            &:nth-child(9),
+            &:nth-child(10){
+                margin-bottom: 0;
+            }
+            padding: 44px 56px;
+            background: #dddddd;
+            cursor: pointer;
+            transition: all linear .3s;
+
+            &:hover {
+                background: $main_col;
+
+                h3,
+                p {
+                    color: $w;
+                }
+            }
+
+            h3 {
+                @include fs(#444444, 16px, 400, $open);
+                text-transform: capitalize;
+                padding-bottom: 10px;
+                transition: all linear .3s;
+            }
+
+            p {
+                padding-top: 10px;
+                transition: all linear .3s;
+            }
+        }
+    }
+}
+
+/*======================================
+            classes end
+========================================*/

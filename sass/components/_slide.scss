@@ -1,0 +1,44 @@
+@import '../variables/variables';
+@import '../mixins/mixin';
+
+/*======================================
+                slide start
+========================================*/
+#client{
+    padding-bottom: 80px;
+    .slider_main{
+        .draggable{
+            padding: 10px 0 !important;
+        }
+        .slick-slide{
+            padding: 0 12px;
+        }
+        .slick-center{
+            img{
+                box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
+            }
+        }
+        .prv_arr{
+            position: absolute;
+            left: -30px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 99;
+            font-size: 35px;
+        }
+        .nxt_arr{
+            position: absolute;
+            right: -27px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 99;
+            font-size: 35px;
+            width: auto;
+        }
+    }
+}
+
+
+/*======================================
+                slide end
+========================================*/
